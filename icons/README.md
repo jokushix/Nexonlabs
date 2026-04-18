@@ -1,4 +1,4 @@
-# NexonLabs
+# Klevio
 
 TODO: add svg icons here
 Place your icon files in this folder using these exact filenames:

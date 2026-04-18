@@ -1,4 +1,4 @@
-/* ── main.js — Nexon Labs ── */
+/* ── main.js — Klevio ── */
 
 const nav = document.getElementById('nav');
 const menuToggle = document.getElementById('menu-toggle');
