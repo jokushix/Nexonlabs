@@ -1,4 +1,4 @@
-# Klevio
+# Norvelix
 
 TODO: add svg icons here
 Place your icon files in this folder using these exact filenames:
@@ -19,6 +19,7 @@ Place your icon files in this folder using these exact filenames:
 - `contact-location.svg` - location
 - `contact-time.svg` - response time / clock
 - `contact-call.svg` - intro call / phone
+- `contact-social.svg` - social links
 
 Notes:
 - Prefer SVG for sharp rendering.

@@ -1,4 +1,4 @@
-/* ── main.js — Klevio ── */
+/* ── main.js — Norvelix ── */
 
 const nav = document.getElementById('nav');
 const menuToggle = document.getElementById('menu-toggle');

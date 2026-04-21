@@ -376,6 +376,7 @@ h2 {
 .icon-contact-location { background-image: url("icons/contact-location.svg"); }
 .icon-contact-time { background-image: url("icons/contact-time.svg"); }
 .icon-contact-call { background-image: url("icons/contact-call.svg"); }
+.icon-contact-social { background-image: url("icons/contact-social.svg"); }
 
 /* ── SERVICES ── */
 .service-badge {
@@ -593,7 +594,21 @@ h2 {
   text-decoration: none;
 }
 
-.contact-val:hover {
+.contact-val a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.contact-val a:hover {
+  color: var(--green);
+}
+
+.contact-sep {
+  color: var(--muted);
+  margin: 0 8px;
+}
+
+a.contact-val:hover {
   color: var(--green);
 }
 
