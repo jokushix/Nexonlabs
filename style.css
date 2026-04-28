@@ -1116,12 +1116,12 @@ footer a:hover { color: var(--green); }
      ───────────────────────────────────────────── */
   .hero-lamp-scene {
     position: absolute;
-    inset: auto;
-    right: 12px;
-    bottom: 16%;
+    top: 20px;
+    right: 0;
+    bottom: auto;
+    left: auto;
     width: 160px;
     height: 210px;
-    overflow: visible;
   }
   .hero-lamp::before {
     left: 16px;
