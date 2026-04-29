@@ -1113,6 +1113,7 @@ footer a:hover { color: var(--green); }
      ───────────────────────────────────────────── */
  .hero-lamp-scene {
   position: absolute;
+  overflow: hidden;
   top: 20px;
   right: 0;
   bottom: auto;
@@ -1133,24 +1134,28 @@ footer a:hover { color: var(--green); }
     height: 5px;
   }
   .hero-lamp-arm {
-    top: 18px;
+    top: 25px;
     left: 83px;
     width: 16px;
     height: 16px;
   }
   .hero-lamp-head {
     left: 91px;
-    top: 24px;
+    top: 40px;
     width: 34px;
     height: 48px;
   }
-  .hero-lamp-light {
-    top: 72px;
-    left: 23px;
-    width: 170px;
+  .hero-sequence.is-beat-4 .hero-lamp-light {
+    animation: lampFlicker 0.85s linear 1;
+    top: 70px;
+    width: clamp(170px, 20vw, 260px);
+    left: 14.5%;
     height: 150px;
     filter: blur(9px);
-  }
+
+    transform: rotate(21deg);
+    transform-origin: top center;
+}
   .grid-4,
   .grid-3,
   .industries-grid,
@@ -1186,13 +1191,6 @@ footer a:hover { color: var(--green); }
     scroll-behavior: auto;
   }
 
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-  }
 
   .fade-up {
     opacity: 1;
