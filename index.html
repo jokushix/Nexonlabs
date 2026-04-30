@@ -1,45 +1,203 @@
 <!DOCTYPE html>
 <html lang="lt">
 <head>
+  <!-- Essentials -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Svetainių kūrimas verslui Lietuvoje | Norvelix</title>
-  <meta name="description" content="Norvelix kuria svetaines, kurios ne tik atrodo gerai — jos aiškiai perteikia, kodėl jūsų verslas vertas dėmesio. Dizainas, struktūra ir paleidimas per 1–2 savaites." />
-  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-  <meta name="theme-color" content="#080c10" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- Primary SEO -->
+  <title>Norvelix – Profesionalių svetainių kūrimas Lietuvoje</title>
+  <meta name="description" content="Norvelix kuria greitas, modernias ir mobiliesiems pritaikytas svetaines Lietuvos verslams. Skambinkite arba rašykite – atsakome per 24 val." />
+  <meta name="keywords" content="svetainių kūrimas, interneto svetainė, web dizainas, landing page, Vilnius, Lietuva" />
   <meta name="author" content="Norvelix" />
+  <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://norvelix.lt/" />
+
+  <!-- Hreflang -->
   <link rel="alternate" hreflang="lt" href="https://norvelix.lt/" />
   <link rel="alternate" hreflang="en" href="https://norvelix.lt/en/" />
   <link rel="alternate" hreflang="x-default" href="https://norvelix.lt/" />
+
+  <!-- Open Graph -->
   <meta property="og:type" content="website" />
-  <meta property="og:locale" content="lt_LT" />
-  <meta property="og:locale:alternate" content="en_US" />
   <meta property="og:site_name" content="Norvelix" />
   <meta property="og:url" content="https://norvelix.lt/" />
-  <meta property="og:title" content="Svetainių kūrimas verslui Lietuvoje | Norvelix" />
-  <meta property="og:description" content="Svetainės, kurios aiškiai parodo, kodėl jūsų verslas vertas dėmesio. Modernus dizainas ir greitas paleidimas." />
-  <meta property="og:image" content="https://norvelix.lt/favicon.png" />
-  <meta property="og:image:alt" content="Norvelix logotipas" />
-  <meta property="og:image:width" content="512" />
-  <meta property="og:image:height" content="512" />
+  <meta property="og:title" content="Norvelix – Profesionalių svetainių kūrimas Lietuvoje" />
+  <meta property="og:description" content="Norvelix kuria greitas, modernias ir mobiliesiems pritaikytas svetaines Lietuvos verslams. Atsakome per 24 val." />
+  <meta property="og:locale" content="lt_LT" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="og:image" content="https://norvelix.lt/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
   <meta property="og:image:type" content="image/png" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Svetainių kūrimas verslui Lietuvoje | Norvelix" />
-  <meta name="twitter:description" content="Svetainės, kurios aiškiai parodo, kodėl jūsų verslas vertas dėmesio. Modernus dizainas ir greitas paleidimas." />
-  <meta name="twitter:image" content="https://norvelix.lt/favicon.png" />
-  <meta name="google-analytics-id" content="G-QP59VZZDCV" />
-  <meta name="microsoft-clarity-id" content="wif67cru9z" />
-  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-  <link rel="icon" href="favicon.png" type="image/png" />
-  <link rel="apple-touch-icon" href="favicon.png" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;1,9..40,300&display=swap" rel="stylesheet" />
+  <meta property="og:image:alt" content="Norvelix – profesionalių svetainių kūrimas" />
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@norvelix" />
+  <meta name="twitter:title" content="Norvelix – Profesionalių svetainių kūrimas Lietuvoje" />
+  <meta name="twitter:description" content="Norvelix kuria greitas, modernias ir mobiliesiems pritaikytas svetaines Lietuvos verslams." />
+  <meta name="twitter:image" content="https://norvelix.lt/og-image.png" />
+  <meta name="twitter:image:alt" content="Norvelix – profesionalių svetainių kūrimas" />
+
+  <!-- Favicons -->
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png" />
+  <link rel="icon" href="/favicon-16x16.png" sizes="16x16" type="image/png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <meta name="theme-color" content="#0a0a0f" />
+
+  <!-- Android / Google -->
+  <link rel="icon" href="/android-chrome-192x192.png" sizes="192x192" type="image/png" />
+  <link rel="icon" href="/android-chrome-512x512.png" sizes="512x512" type="image/png" />
+
+  <!-- Schema: Organization + ProfessionalService -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["ProfessionalService", "Organization"],
+    "@id": "https://norvelix.lt/#organization",
+    "name": "Norvelix",
+    "url": "https://norvelix.lt",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://norvelix.lt/og-image.png",
+      "width": 1200,
+      "height": 630
+    },
+    "image": "https://norvelix.lt/og-image.png",
+    "description": "Norvelix kuria profesionalias, modernias ir mobiliesiems pritaikytas svetaines Lietuvos verslams.",
+    "email": "hello@norvelix.lt",
+    "telephone": "+37067611954",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Vilnius",
+      "addressCountry": "LT"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 54.6872,
+      "longitude": 25.2797
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": "Lithuania",
+      "sameAs": "https://en.wikipedia.org/wiki/Lithuania"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "16:00",
+        "closes": "20:00"
+      }
+    ],
+    "sameAs": [
+      "https://instagram.com/norvelix.lt",
+      "https://www.facebook.com/profile.php?id=61563215660618",
+      "https://www.tiktok.com/@norvelix.lt"
+    ],
+    "serviceType": [
+      "Website design",
+      "Website development",
+      "Landing page design",
+      "Website support"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Norvelix paslaugos",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Svetainių kūrimas",
+            "description": "Vieno puslapio arba pilna svetainė, pritaikyta telefonams."
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Svetainių priežiūra",
+            "description": "Turinio pakeitimai, smulkūs pataisymai ir pagalba po paleidimo."
+          }
+        }
+      ]
+    }
+  }
+  </script>
+
+  <!-- Schema: WebSite + Sitelinks Searchbox -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://norvelix.lt/#website",
+    "url": "https://norvelix.lt",
+    "name": "Norvelix",
+    "description": "Profesionalių svetainių kūrimas Lietuvoje",
+    "inLanguage": ["lt", "en"],
+    "publisher": {
+      "@id": "https://norvelix.lt/#organization"
+    }
+  }
+  </script>
+
+  <!-- Schema: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Kiek laiko užtrunka sukurti svetainę?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "1 puslapio svetainę pristatome per 5–7 darbo dienas, o pilną svetainę per 10–14 dienų. Laikas priklauso nuo projekto sudėtingumo ir turinio paruošimo."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Ar man reikia techninių žinių?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Visiškai ne. Viską paaiškiname paprastai ir pasirūpiname technine puse už jus."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Ar padedate su tekstais ir nuotraukomis?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Taip. Galime padėti su antraštėmis, paslaugų aprašymais, struktūra ir vizualine kryptimi, jei neturite paruošto turinio."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Kaip vyksta mokėjimas?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Taikome 50% avansą prieš pradedant darbą ir 50% baigus projektą. Priimami bankiniai pavedimai."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Ar galėsiu pats atnaujinti svetainę?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Taip, su mūsų pagalba. Padėsime atnaujinti pagrindinę informaciją arba galime integruoti turinio valdymo sistemą."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Stylesheet -->
   <link rel="stylesheet" href="style.css" />
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"Norvelix","url":"https://norvelix.lt","areaServed":{"@type":"Country","name":"Lithuania"},"description":"Norvelix kuria profesionalias svetaines Lietuvos verslams.","email":"hello@norvelix.lt","telephone":"+37067611954","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"16:00","closes":"20:00"}],"sameAs":["https://instagram.com/norvelix.lt","https://www.facebook.com/profile.php?id=61563215660618","https://www.tiktok.com/@norvelix.lt"],"serviceType":["Website design","Website development","Landing page design","Website support"]}</script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Norvelix","url":"https://norvelix.lt/","inLanguage":"lt","publisher":{"@type":"Organization","name":"Norvelix","url":"https://norvelix.lt/"}}</script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","inLanguage":"lt","mainEntity":[{"@type":"Question","name":"Kiek laiko užtrunka sukurti svetainę?","acceptedAnswer":{"@type":"Answer","text":"1 puslapio svetainę pristatome per 5–7 darbo dienas, o pilną svetainę per 10–14 dienų. Laikas priklauso nuo projekto sudėtingumo ir turinio paruošimo."}},{"@type":"Question","name":"Ar man reikia techninių žinių?","acceptedAnswer":{"@type":"Answer","text":"Visiškai ne. Viską paaiškiname paprastai ir pasirūpiname technine puse už jus."}},{"@type":"Question","name":"Ar padedate su tekstais ir nuotraukomis?","acceptedAnswer":{"@type":"Answer","text":"Taip. Galime padėti su antraštėmis, paslaugų aprašymais, struktūra ir vizualine kryptimi, jei neturite paruošto turinio."}},{"@type":"Question","name":"Kaip vyksta mokėjimas?","acceptedAnswer":{"@type":"Answer","text":"Taikome 50% avansą prieš pradedant darbą ir 50% baigus projektą. Priimami bankiniai pavedimai."}},{"@type":"Question","name":"Ar galėsiu pats atnaujinti svetainę?","acceptedAnswer":{"@type":"Answer","text":"Taip, su mūsų pagalba. Padėsime atnaujinti pagrindinę informaciją arba galime integruoti turinio valdymo sistemą."}}]}</script>
 </head>
 <body>
 <a class="skip-link" href="#main-content">Praleisti į turinį</a>
